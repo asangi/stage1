@@ -1,0 +1,70 @@
+.heading {
+    background-color: black;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.heading h1 {
+    color: #FFA500;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    letter-spacing: 25px;
+    font-size: 50px;
+    padding: 10px;
+}
+body {
+    background-color: #323233;
+    font-size: 18px;
+    margin: 0;
+}
+.title {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.title h2 {
+    text-align: center;
+    font-family: "Courier New", monospace;
+    color: white;
+    font-size: 28px;
+}
+.notes h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-family: monospace;
+    font-size: 24px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+.notes {
+    background-color: #F0F0F0;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-align: justify;
+}
+footer {
+    text-align: right;
+    color: #FFA500;
+    font-family: monospace;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    letter-spacing: 2px;
+}
+a {
+    color: #E69400;
+}
+.logo {
+    border-radius: 50px;
+}
+.boximage {
+    text-align: center;
+}
+.box {
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+}

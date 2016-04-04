@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Student Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>LESSON RECAPS</h1>
+    </div>
+
+    <div class="title">
+        <h2>LESSON 1: The Basics of the Web & HTML</h2>
+        <div class="notes">
+            <h3>The Web</h3>
+            <p><b>The web</b>-<em>World Wide Web</em>- is a collection of HTML documents. The web was invented in the 1990s and has about 20 billion pages.</p> 
+            <p><b>HTML</b> stands for <em>HyperText Markup Language</em> which glues everything together and is the main document type of the web. Links between pages are called <em>hyperlinks</em> or links for short. These make the web web-like.</p>
+            <p>When a browser makes a request via the internet to servers, the requests are using a protocol called <em>HTTP</em> and the servers respond with files that the browser ends up displaying.</p>
+            <b>Browser</b>: A program that runs on a computer to display files found on the web
+            <br>
+            <b>Internet</b>: World's largest computer network
+            <br>
+            <b>HTTP</b>: The main protocol of the web
+            <br>
+            <b>Servers</b>: Computers that host the files that make up the web
+        </div>
+
+        <div class="notes">
+            <h3>HTML</h3>
+            <p>HyperText Markup Language is made up of,</p>
+            <ul>
+                <li>Text content: what can be seen</li>
+                <li>Markup: what it looks like or how it's arranged</li>
+                <li>References to other documents: images and videos</li>
+                <li>Links to other pages</li>
+            </ul>
+        </div>
+
+        <div class="notes">
+            <h3>HTML Markup</h3>
+            <p>Markup which is made up of things called <em>tags</em> are used to make plain text look different. There is an opening tag and a closing tag which make up an <em>Element.</em>
+            </p>
+        </div>
+
+        <div class="notes">
+            <h3>Computers are stupid</h3>
+            <p>Computers interpret language literally. Therefore, computer programming languages are designed to limit ambiguity.</p>
+        </div>
+
+        <div class="notes">
+            <h3>HTML Attributes</h3>
+            <p>Tags in an element can be given multiple attributes with a value.</p>
+            <ul>
+                <li><b>Anchor tag</b>
+                </li>
+            </ul>
+            <a href="http://www.udacity.com">Click to learn more!</a> Here, the attribute name is 'href', its value is the URL given and is used for making links.
+            <ul>
+                <li><b>Image tag</b>
+                </li>
+            </ul>
+            <div class="logoimage"><img class="logo" src="images/udacitylogo.jpg" alt="Udacity logo">
+            </div>
+            <!-- I wanted to place the image and the paragraph below next to each other using 'flex', but I couldn't quite figure out how to do so. -->
+            <p>Here, there is no need for a closing tag because the tag has no content. This is called a 'Void' tag. The attribute used is 'src'-source. An alternate text is displayed for broken requests and blind people.</p>
+        </div>
+
+        <div class="notes">
+            <h3>Whitespace</h3>
+            <p>'br'-break tag when multiple line breaks are needed. This is a void tag.</p>
+            <p>'p'-paragraph tag is not a void tag since it has content. This tag creates an invsible box around the text that has length and width.</p>
+        </div>
+
+        <div class="notes">
+            <h3>Inline VS Block Elements</h3>
+            <p>Inline tags: br, b, em, img, a, span, strong</p>
+            <p>Block tags: p, div, form</p>
+            <br>
+            <b>Container Element</b>
+            <p>Elements that do nothing but contain stuff inside themselves.</p>
+            <br>
+            <b>Span VS Div</b>
+            <p>Both are normal elements and have content. The only difference is that Span is 'Inline' and Div is 'block'. Div tag behaves how a 'p' tag would.</p>
+            <br>
+            <b>HTML Document Structure</b>
+            <p>Meta-data, Javascript, CSS are found inside the 'head' tag along with the title of the page which appears on the top of the browser window. The actual conent go inside the 'body' tag fo the document.</p>
+            <p>Remember: there are too many facts to keep in mind in programming. <a href="http://www.google.ca">Google search</a> OR use <a href="http://www.w3schools.com">this helpful site!</a>
+            </p>
+            <p>Writing code that people can easily read is very important and a huge part of writing code is structuring it well. In HTML, the indentation level increases when an idea begins and decreases when it is done.</p>
+        </div>
+    </div>
+
+    <div class="title">
+        <h2>LESSON 2: Introduction to HTML & CSS</h2>
+        <div class="notes">
+            <h3>Developer Tools</h3>
+            <p>3 languages that go into web development:
+                <ul>
+                    <li><b>HTML</b>: controls the structure of a webpage</li>
+                    <li><b>CSS</b>: controls the style/how it looks</li>
+                    <li><b>Javascript</b>
+                    </li>
+                </ul>
+                <p>Developer tools shows the structure of a webpage; how the browser interprets it. All visible elements are rectangular boxes. Even a circle fits in a box.
+                </p>
+        </div>
+
+        <div class="notes">
+            <h3>Tree-like Structure</h3>
+            <p>The page structure is tree-like since it branches out. Classification shows the browser what is text, image, etc. The same html document can be styled in many different ways from each other.</p>
+            <p><b>DOM(<em>Document Object Model</em>)</b>: Refers to the tree-like structure of a page.</p>
+            <p>html > language > syntax+rules > tags > elements in a tree > DOM</p>
+        </div>
+
+        <div class="notes">
+            <h3>HTML Boxes, Grids & Rules</h3>
+            <p>Thinking of things in terms of boxes makes the life of a front-end developer much easier. A grid serves to make sure that things are properly aligned. Look at a page and think of ways to draw a box around every visual element.</p>
+            <p>Boxify a design. Largest box is the entire page; work from big to small. In grid-based layout start from left to right and top to bottom.</p>
+            <p><b>DIV</b>: Boxes are defined with these tags. In order to style them individually, each div tag must be given a 'class' attribute. These attributes act as labels on boxes. Divs take up the entire width of the page by default.</p>
+        </div>
+    </div>
+
+    <div class="title">
+        <h2>LESSON 3: Adding Style</h2>
+        <div class="notes">
+            <h3>CSS</h3>
+            <p><b>Cascading Style Sheets</b>. Several CSS files can be referenced in html. <em>Cascading</em> is when the most specific rule is applied.</p>
+            <b>Selectors</b>
+            <p>These allow the targetting of specific html elements apply style to them.</p>
+            <p>ID selectors are unique and the most powerful type of selector by beating out other selectors. Class selectors refer to a group of elemnts that be styled together. Class selectors are recommended over ID.</p>
+            <p>font-styles: Italic, Normal, Oblique</p>
+            <b><em>Example</em></b>: background-color: red = <b>Declaration</b> ; background-color = <b>Property</b> ; red = <b>Value</b>
+            <p>3 ways to include CSS styling:</p>
+            <ul>
+                <li>Top of html document inside the head tag</li>
+                <li>Link html to a separate CSS file</li>
+                <li>Write style 'inline' with html which may lead to repeated code</li>
+            </ul>
+        </div>
+
+        <div class="notes">
+            <h3>Coding Style</h3>
+            <p>Coding style is how code is written, organized and presented. Consistent indentations, character spacings, variable names and code organization.</p>
+            <p>HTML style: consistent indentations, lower case names, sparse comments</p>
+            <p>CSS style: consistent indentations, one attribute per line, consistent spaces</p>
+        </div>
+
+        <div class="notes">
+            <h3>CSS Reference</h3>
+            <p>This lists all standard CSS properties. It allows quick access to detailed information.</p>
+        </div>
+
+        <div class="notes">
+            <h3>Semantic Tags</h3>
+            <p>The tag's element name determines both the semantic meaning of the content and the default style rules applied to it.</p>
+        </div>
+
+        <div class="notes">
+            <h3>The Box Model</h3>
+            <div class="boximage"><img class="box" src="images/boxmodel.jpg" alt="Box Model">
+            </div>
+            <ul>
+                <li><b>Content</b>: image/text displayed on the page. The 3 layers protect it so that other items do not overlap with it or sit too close</li>
+                <li><b>Padding</b>: clears around content and is affected by background color</li>
+                <li><b>Border</b>: goes around padding and content and inherits the color property</li>
+                <li><b>Margin</b>: clears area around border and is completely transparent</li>
+            </ul>
+            <b>Box-sizing: border-box</b>
+            <p>This calculates the element size including both the border and padding to make layouts easier. No matter how the padding and border sizes are changed the size of the box will still remain the same. However, the margin is not included in this size. The size can be given by pixels or percentage. Pixels will take exactly the assigned size no matter the screen size whereas percentage will change depending on the screen size.</p>
+            <p><b>Maximum width</b>: This lets it resize the box and become smaller when necessary, but not larger than the maximum width.</p>
+        </div>
+
+        <div class="notes">
+            <h3>Flex Box Layout</h3>
+            <p>Flexible Box: Efficient way to layout a line and distribute space inside a container or div. If several boxes need to be placed next to each other, the display attribute of the parent container should be changed to the value 'flex' and the child elements a size smaller than its default 100%. <em>display: flex;</em>
+            </p>
+            <p>Flexbox: small-scale layouts ; Grid: large-scale layout</p>
+        </div>
+
+        <div class="notes">
+            <h3>Code, Test, Refine</h3>
+            <p>Write code -> Test it against the mockup -> Refine/modify the code where necessary ->Repeat process if needed</p>
+            <p>Always validating code by executing it every few lines typed is important to make sure that an error can be addressed immediately. Developer Tools is great for code, text, refine routine.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>ASANGI KRISHNANAND | Introduction to Programming Nanodegree | Udacity | 2016</p>
+    </footer>
+
+</body>
+
+</html>
